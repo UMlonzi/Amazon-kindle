@@ -1,0 +1,53 @@
+.form {
+
+padding: 16px ;
+border: 3px solid orange  ;
+margin: 60px;
+width: 25%;
+border-style: center;
+background-color: lightgrey;
+}
+
+
+.body {
+    background-color: white;
+ 
+}
+
+.registerbtn{
+background-color: orange;
+padding: 16px 20px;
+margin: 8px 0;
+border: none;
+cursor: pointer;
+
+opacity: 0.9;
+}
+.account {
+    padding: 16px 20px;
+  margin: 8px 0;
+ 
+
+}
+
+.p1 {
+    text-align: right;
+}
+
+.loginbtn {
+    background-color: orange;
+padding: 16px 20px;
+margin: 8px 0;
+border: none;
+cursor: pointer;
+}
+
+.account{
+    justify-content: center;
+    position: relative;
+}
+
+.kindleImg {
+    width: 50%;
+    height: 50%;
+}
