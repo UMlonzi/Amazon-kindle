@@ -1,3 +1,78 @@
 .body {
-    background-color: lightgrey;
+    background-color: grey;
+  
+
 }
+
+div#header {
+   
+    height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+  
+    }
+    .K1{
+        text-align: right;
+    }
+   
+    div#main {
+ 
+    margin-left: 100px;
+    min-height: 300px;
+    }
+    div#sidebar {
+   
+    width: 80px;
+    position: absolute;
+    top: 110px;
+    min-height: 300px;
+    }
+    div#footer {
+   background-color: #2196F3;
+    }
+
+  .searchtxt {
+
+      border: none;
+      background: none;
+      outline: none;
+      padding: 20px;
+     
+    text-align: left;
+    font-size: 15px;
+    transition: 0.4s;
+    line-height: 40px;
+   
+  }
+
+  .searchbtn {
+  color: white;
+     width: 40px;
+    
+     border-radius: 50%;
+ 
+  }
+
+  .searchbox {
+      border-radius: 20px;
+      background: white;
+  
+  }
+
+  .welcomeImg {
+height: 90px;
+border-radius: 25px;
+
+  }
+  
+  .label {
+      display: block;
+  }
+
+  .listIcons {
+      text-decoration: none;
+      color: black;
+      display: block;
+      padding: 8px;
+      font-size: 12px;
+      width: 100%;
+  }
