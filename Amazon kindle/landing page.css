@@ -1,5 +1,5 @@
 .body {
-    background-color: grey;
+    background-color: rgb(243, 232, 232);
   
 
 }
@@ -8,7 +8,10 @@ div#header {
    
     height: 100px;
     font-family: Arial, Helvetica, sans-serif;
-  
+  text-align: right;
+  padding: 10px;
+  margin: 10px;
+  font-size: large;
     }
     .K1{
         text-align: right;

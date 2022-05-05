@@ -1,16 +1,25 @@
 .form {
 
-padding: 16px ;
+padding: 10px ;
 border: 3px solid orange  ;
-margin: 60px;
+
 width: 25%;
 border-style: center;
 background-color: lightgrey;
+display: flex;
+flex-direction: column;
+justify-content: center;
+top: 50%;
+left: 50%;
+position: absolute;
+transform: translate(-50%, -50%);
 }
 
 
 .body {
-    background-color: white;
+background-color:grey ;
+    margin: 0;
+    padding: 0;
  
 }
 
