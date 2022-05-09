@@ -55,14 +55,18 @@ div#header {
   .searchbtn {
   color: white;
      width: 40px;
-    
+     
      border-radius: 50%;
+   
  
   }
 
   .searchbox {
       border-radius: 20px;
       background: white;
+ padding: 15px;
+ margin: auto;
+
   
   }
 
@@ -164,4 +168,28 @@ margin: 20px;
   background-color: orange;
   padding: 45px;
   border-radius: 10%;
+}
+
+.navbar {
+  height: 12%;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  width: 50px;
+  cursor: pointer;
+}
+
+nav {
+  flex: 1;
+  text-align: right;
+}
+nav ul li {
+  list-style: none ;
+  display: inline-block;
+  margin-left: 60px;
+}
+nav ul li a {
+  text-decoration: none;
+  
 }

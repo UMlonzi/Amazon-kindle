@@ -14,7 +14,18 @@ left: 50%;
 position: absolute;
 transform: translate(-50%, -50%);
 }
-
+#email_error,
+#pass_error {
+   margin-bottom: 10px;
+ padding: 5px;
+  background: rgba(255, 0, 0, 0.1);
+    color: red;
+    text-align: center;
+    padding: 5px 8px;
+    border-radius: 3px;
+    border: 1px solid #ef9a9a;
+    display: none;
+}
 
 .body {
 background-color:grey ;
