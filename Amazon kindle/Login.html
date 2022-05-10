@@ -4,7 +4,7 @@
    <meta charset="utf-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="stylesheet" href="reg.css">
+        <link rel="stylesheet" href="login.css">
      
 
     </head>
@@ -19,30 +19,27 @@
 
         <main>
 
-            <form  class="form" action="'file:///C:/Users/Usikhumbulele%20Mlonzi/Desktop/Amazon%20kindle/landing%20page.html" method="post" name="form" onsubmit="return validated()">
+            <form  class="form" action="file:///C:/Users/Usikhumbulele%20Mlonzi/Desktop/Amazon%20kindle/landing%20page.html" method="post" name="form" onsubmit="return validated()">
                 <div class="account" >
                   <h1>Sign-in </h1>
-                  <p class="p1"> <a href="#">Forgot password?</a>.</p>
-                  <br>
-
-                  <label for="email or phone number"><b></b></label>
-                  <input type="text"  placeholder="email or phone number"  ><br><br>
-                    <div id="email_error"> Please fill up your Email or Phone number</div>
-                  <label for="Amazon password"><b></b></label>
-                  <input type="text" placeholder="Amazon password"  ><br><br>
+                  <div class="font">Email or Phone Number</div>
+                  <input autocomplete="off" type="text" name="email">
+                  
+                  <div id="email_error">Please fill up your Email or Phone number</div>
+                  <div class="font font2"> Password</div>
+                  <input type="password" name="password">
                   <div id="pass_error"> Please fill up your Password</div>
-                  <label>
-                    <input type="checkbox"  name="Show password"> Show password
-                  <br> <br>
-
-                  <label>
-                    <input type="checkbox" name="Keep me signed in"> Keep me signed in
-                  </label>
-
-                  <br> <br>
+                  
+                     <div><input type="checkbox"  name="Show password"> Show password
+                  <br> <br> </div>
+                  <div><input type="checkbox" name="Keep me signed in"> Keep me signed in
+                    <br> <br></div>
+              
 
 
-                  <button type="submit" onclick="window.href='file:///C:/Users/Usikhumbulele%20Mlonzi/Desktop/Amazon%20kindle/landing%20page.html'" class="loginbtn"> Sign-in</button>
+             
+<br>
+                  <button type="submit"  class="loginbtn"> Sign-in</button>
 
              
                 </div>
@@ -53,6 +50,7 @@
               <script src="login.js"></script>
      
                
+              
               
 
         </main>

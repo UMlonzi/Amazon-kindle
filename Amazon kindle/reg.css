@@ -1,9 +1,9 @@
 .form {
 
 padding: 10px ;
-border: 3px solid orange  ;
+border: 3px solid orange;
 
-width: 25%;
+width: 20%;
 border-style: center;
 background-color: lightgrey;
 display: flex;
@@ -14,18 +14,7 @@ left: 50%;
 position: absolute;
 transform: translate(-50%, -50%);
 }
-#email_error,
-#pass_error {
-   margin-bottom: 10px;
- padding: 5px;
-  background: rgba(255, 0, 0, 0.1);
-    color: red;
-    text-align: center;
-    padding: 5px 8px;
-    border-radius: 3px;
-    border: 1px solid #ef9a9a;
-    display: none;
-}
+
 
 .body {
 background-color:grey ;
@@ -54,13 +43,7 @@ opacity: 0.9;
     text-align: right;
 }
 
-.loginbtn {
-    background-color: orange;
-padding: 16px 20px;
-margin: 8px 0;
-border: none;
-cursor: pointer;
-}
+
 
 .account{
     justify-content: center;
@@ -71,3 +54,4 @@ cursor: pointer;
     width: 50%;
     height: 50%;
 }
+

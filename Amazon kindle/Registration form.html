@@ -15,7 +15,7 @@
 
         <main>
 
-            <form onclick="myFunc(event)" action="file:///C:/Users/Usikhumbulele%20Mlonzi/Desktop/Amazon%20kindle/Login.html"  id="form">
+            <form onsubmit="myFunc(event)" action="file:///C:/Users/Usikhumbulele%20Mlonzi/Desktop/Amazon%20kindle/Login.html" method="post" class="form">
                 <div class="account">
                   <h1>Create account </h1>
                   <p>Please fill in this form to create an account.</p>
@@ -43,21 +43,7 @@
               
                 
               </form>
-              <script type="text/javascript">
-                  function myFunc(event) {
-                      event.preventDefault();
-
-                      var name_and_surname = document.getElementById("name_and_surname").value;
-                      var enter_email =document.getElementById("enter_email").value;
-                      var Phone_Number =document.getElementById("Phone_Number").value;
-
-                      localStorage.setItem('Is_name_and_surname', name_and_surname);
-                      localStorage.setItem('Is_enter_email', enter_email);
-                      localStorage.setItem('Is_Phone_Number', Phone_Number);
-
-                  }
-
-              </script>
+              <script src="reg.js" type="text/javascript"> </script>
 
         </main>
 
