@@ -209,3 +209,11 @@ nav ul li a {
 .readimg {
   width: 250px;
 }
+@media only screen and (max-width:550px) {    .container{
+      
+  height: 100vh;
+
+
+   width: 100%;
+  }
+}
