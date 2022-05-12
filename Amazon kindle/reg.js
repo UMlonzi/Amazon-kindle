@@ -9,3 +9,4 @@ function myFunc(event) {
     localStorage.setItem('Is_enter_email', enter_email);
     localStorage.setItem('Is_Phone_Number', Phone_Number);
 }
+
