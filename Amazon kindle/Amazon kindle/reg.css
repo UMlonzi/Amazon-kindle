@@ -1,0 +1,57 @@
+.form {
+
+padding: 10px ;
+border: 3px solid orange;
+
+width: 20%;
+border-style: center;
+background-color: lightgrey;
+display: flex;
+flex-direction: column;
+justify-content: center;
+top: 50%;
+left: 50%;
+position: absolute;
+transform: translate(-50%, -50%);
+}
+
+
+.body {
+background-color:grey ;
+    margin: 0;
+    padding: 0;
+ 
+}
+
+.registerbtn{
+background-color: orange;
+padding: 16px 20px;
+margin: 8px 0;
+border: none;
+cursor: pointer;
+
+opacity: 0.9;
+}
+.account {
+    padding: 16px 20px;
+  margin: 8px 0;
+ 
+
+}
+
+.p1 {
+    text-align: right;
+}
+
+
+
+.account{
+    justify-content: center;
+    position: relative;
+}
+
+.kindleImg {
+    width: 50%;
+    height: 50%;
+}
+
