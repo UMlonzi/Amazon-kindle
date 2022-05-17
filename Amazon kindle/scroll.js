@@ -20,6 +20,7 @@ let currentScrollPosition = 0;
                   if(currentScrollPosition <= maxScroll){
                       currentScrollPosition = maxScroll;
                       btnScrollRight.style.opacity = "0";
+
                   }
                   else{
                     btnScrollRight.style.opacity = "1";

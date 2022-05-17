@@ -1,0 +1,424 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    height: 400px;
+}
+.horizontal-scroll{
+    width: 100rem;
+    height: 300px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+.horizontal-scroll .btn-scroll{
+    background-color: #fff;
+    color: #999;
+    box-shadow:0 0 10px #999 ;
+    padding: 5px 8px;
+    border: 0;
+    border-radius: 50%;
+    margin: 0 5px;
+    z-index: 1;
+    cursor: pointer ;
+    transition: 1s;
+}
+.storys-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    transition:0.5s all ease-out;
+}
+.story-circle{
+    width: 60px;
+    height: 60px;
+    margin: 15px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    margin-right: 20rem;
+}
+.story-circle img{
+    width: 53px;
+    height: 10rem;
+    border-radius: 40px;
+   
+     
+}
+.colorb1{
+    position: absolute;
+    background-color: #3D879C;
+    height:6rem;
+    width: 15rem;
+    border-radius: 40px;
+    left: 3rem;
+}
+.wordsb1{
+    position: absolute;
+    width: 10rem;
+    left: 5rem;
+}
+.bookimg1{
+    position: absolute;
+    left: -4rem;
+    top: -4.5rem;
+
+}
+/*book2*/
+.colorb2{
+    position: absolute;
+    background-color: red;
+    height:6rem;
+    width: 15rem;
+    border-radius: 40px;
+    left: 25rem;
+}
+.story-circle1{
+    width: 60px;
+    height: 60px;
+    margin: 15px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    margin-right: 20rem;
+}
+.story-circle1 img{
+    width: 53px;
+    height: 10rem;
+    border-radius: 40px;
+   
+     
+}
+.wordsb2{
+    position: absolute;
+    width: 10rem;
+    left: 5rem;
+}
+.bookimg2{
+    position: absolute;
+    left: -4rem;
+    top: -4.5rem;
+
+}
+/*end*/
+/*book3*/
+.colorb3{
+    position: absolute;
+    background-color: red;
+    height:6rem;
+    width: 15rem;
+    border-radius: 40px;
+    left: 47rem;
+}
+.story-circle2{
+    width: 60px;
+    height: 60px;
+    margin: 15px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    margin-right: 20rem;
+}
+.story-circle2 img{
+    width: 53px;
+    height: 10rem;
+    border-radius: 40px;
+   
+     
+}
+.wordsb3{
+    position: absolute;
+    width: 10rem;
+    left: 5rem;
+}
+.bookimg3{
+    position: absolute;
+    left: -4rem;
+    top: -4.5rem;
+
+}
+/*end*/
+/*book4*/
+.colorb4{
+    position: absolute;
+    background-color: red;
+    height:6rem;
+    width: 15rem;
+    border-radius: 40px;
+    left: 69rem;
+}
+.story-circle3{
+    width: 60px;
+    height: 60px;
+    margin: 15px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    margin-right: 20rem;
+}
+.story-circle3 img{
+    width: 53px;
+    height: 10rem;
+    border-radius: 40px;
+   
+     
+}
+.wordsb4{
+    position: absolute;
+    width: 10rem;
+    left: 5rem;
+}
+.bookimg4{
+    position: absolute;
+    left: -4rem;
+    top: -4.5rem;
+
+}
+/*end*/
+/*book5*/
+.colorb5{
+    position: absolute;
+    background-color: red;
+    height:6rem;
+    width: 15rem;
+    border-radius: 40px;
+    left: 91rem;
+}
+.story-circle4{
+    width: 60px;
+    height: 60px;
+    margin: 15px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    margin-right: 20rem;
+}
+.story-circle4 img{
+    width: 53px;
+    height: 10rem;
+    border-radius: 40px;
+   
+     
+}
+.wordsb5{
+    position: absolute;
+    width: 10rem;
+    left: 5rem;
+}
+.bookimg5{
+    position: absolute;
+    left: -4rem;
+    top: -4.5rem;
+
+}
+/*end*/
+/*book6*/
+.colorb6{
+    position: absolute;
+    background-color: red;
+    height:6rem;
+    width: 15rem;
+    border-radius: 40px;
+    left: 113rem;
+}
+.story-circle5{
+    width: 60px;
+    height: 60px;
+    margin: 15px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    margin-right: 20rem;
+}
+.story-circle5 img{
+    width: 53px;
+    height: 10rem;
+    border-radius: 40px;
+   
+     
+}
+.wordsb6{
+    position: absolute;
+    width: 10rem;
+    left: 5rem;
+}
+.bookimg6{
+    position: absolute;
+    left: -4rem;
+    top: -4.5rem;
+
+}
+/*end*/
+/*book7*/
+.colorb7{
+    position: absolute;
+    background-color: red;
+    height:6rem;
+    width: 15rem;
+    border-radius: 40px;
+    left: 135rem;
+}
+.story-circle6{
+    width: 60px;
+    height: 60px;
+    margin: 15px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    margin-right: 20rem;
+}
+.story-circle6 img{
+    width: 53px;
+    height: 10rem;
+    border-radius: 40px;
+   
+     
+}
+.wordsb7{
+    position: absolute;
+    width: 10rem;
+    left: 5rem;
+}
+.bookimg7{
+    position: absolute;
+    left: -4rem;
+    top: -4.5rem;
+
+}
+/*end*/
+/*book8*/
+.colorb8{
+    position: absolute;
+    background-color: red;
+    height:6rem;
+    width: 15rem;
+    border-radius: 40px;
+    left: 157rem;
+}
+.story-circle7{
+    width: 60px;
+    height: 60px;
+    margin: 15px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    margin-right: 20rem;
+}
+.story-circle7 img{
+    width: 53px;
+    height: 10rem;
+    border-radius: 40px;
+   
+     
+}
+.wordsb8{
+    position: absolute;
+    width: 10rem;
+    left: 5rem;
+}
+.bookimg8{
+    position: absolute;
+    left: -4rem;
+    top: -4.5rem;
+
+}
+/*end*/
+/*book9*/
+.colorb9{
+    position: absolute;
+    background-color: red;
+    height:6rem;
+    width: 15rem;
+    border-radius: 40px;
+    left: 179rem;
+}
+.story-circle8{
+    width: 60px;
+    height: 60px;
+    margin: 15px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    margin-right: 20rem;
+}
+.story-circle8 img{
+    width: 53px;
+    height: 10rem;
+    border-radius: 40px;
+   
+     
+}
+.wordsb9{
+    position: absolute;
+    width: 10rem;
+    left: 5rem;
+}
+.bookimg9{
+    position: absolute;
+    left: -4rem;
+    top: -4.5rem;
+
+}
+/*end*/
+/*book10*/
+.colorb10{
+    position: absolute;
+    background-color: red;
+    height:6rem;
+    width: 15rem;
+    border-radius: 40px;
+    left: 201rem;
+}
+.story-circle9{
+    width: 60px;
+    height: 60px;
+    margin: 15px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    margin-right: 20rem;
+}
+.story-circle9 img{
+    width: 53px;
+    height: 10rem;
+    border-radius: 40px;
+   
+     
+}
+.wordsb10{
+    position: absolute;
+    width: 10rem;
+    left: 5rem;
+}
+.bookimg10{
+    position: absolute;
+    left: -4rem;
+    top: -4.5rem;
+
+}
+/*end*/

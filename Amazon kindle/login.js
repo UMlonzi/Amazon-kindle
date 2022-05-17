@@ -49,7 +49,7 @@ function myLogin(event) {
 	var regPass = localStorage.getItem('RegPassword');
 
 	if(usernanme == regEmail && password == regPass){
-		window.location = "./landing page.html";
+		window.location = "./index.html";
 	}else{
 		invalid_credential_error.style.display = "block";
 		email.focus();
