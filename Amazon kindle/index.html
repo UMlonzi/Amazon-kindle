@@ -1,229 +1,224 @@
 <!DOCTYPE html>
-<html>
+
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<link rel="stylesheet" href="landing page.css">
-<link rel="stylesheet" href="scroll.css">
-<script src="https://kit.fontawesome.com/1ec7a64d27.js" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="landing page.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/1ec7a64d27.js" crossorigin="anonymous"></script>
 </head>
-<body onload="changeTheImage()">
-<div class="kindleContent">
-  <div style="overflow:auto">
-    <div class="menu">
-      <div class="profileContent">
-        <img id="userimage" src="./pics/istockphoto-1277996375-612x612.jpg" alt="profile picture" width="150px" width="150px">
-           <h3>Welcome <br>Back</h3>
-           <p class="username" id="userName">Sarah</p>
-           <br>
-       </div>
-       <div class="sidebarItem">
-        <div class="sidebarWrapper">
-            <ul>
-                <li><a href="#"><span class="icon"> <img src="./pics/k.png"></span> <span class="item"> My <br>  Kindle Board</span></a></li>
-         
-                <li><a href="#">
-                    <span class="icon"><i class="fa-solid fa-cube"></i>  </span>
-                    <span class="item"> Collections</span>
-                </a></li>
-                <li><a href="#">
-                    <span class="icon"><i class="fa fa-bookmark"></i>  </span>
-                    <span class="item"> Saved</span>
-                </a></li>
-                <li><a href="#">
-                    <span class="icon"> <i class="fa fa-user"></i> </span>
-                    <span class="item">  Profile</span>
-                </a></li>
-                <li><a href="Login.html">
-                    <span class="icon"><i class="fa-solid fa-right-from-bracket"></i>  </span>
-                    <span class="item"> Logout</span>
-                </a></li> 
-                
-            </ul>
-          <div class="productContent">
-            <h2 class="product"> Product of</h2>
-         <img src="./pics/amazon-png-logo-vector-1.ico" width="100px" height="100px" >
-            </div>  
-      </div>
-       </div>
-      
-    </div>
-                <nav>
-                     
-                    <div class="navContent">  
-                        <label class="label1">Kindle <h1>.</h1> </label>
-                        <div class="rightNav">
-                            <a href="#">
-                            <input type="search" placeholder="Search your books">
-                            <i class="fas fa-search"></i>
-                            </a> 
-                            <a href="#">New release</a>
-                            <a href="#">Featured</a>
-                            <a href="#"> <img src="./pics/icons8-application-24.png"></a>
-                        </div>
-                    </div>
-                </nav>
-
-
-   <div class="main">
-    <div class="readlastTime">
-      <h1>Books you read last</h1>
-      <div class="container">
-        <div class="horizontal-scroll">
-            <button class="btn-scroll" id="btn-scroll-left" onclick="scrollHorizontally(1)"><i class="fas fa-chevron-left"></i></button>
-            <button class="btn-scroll" id="btn-scroll-right"  onclick="scrollHorizontally(-1)"><i class="fas fa-chevron-right"></i></button>
-                          <div class="storys-container">
-                <div class="story-circle">
-                    <div class="colorb1">
-                        <div class="wordsb1">
-                            <h4>Dracula</h4>
-                            <p>194 pages - Chapter 12 - Last</p>
-                            
-
-                            <div class="bookimg1"><img src="./pics/children-of-the-land-best-free-kindle-books-amazon-prime-720x720.jpg" ></div>
-                        </div>
-                        
-                    </div>
-                </div>
-                <div class="story-circle1">
-                    <div class="colorb2">
-                        <div class="wordsb2">
-                           <font size="-1" >            <h4>Everything I know about love</h4>
-                            <p>New purchase - Yet to read</p>
-                            </font>
-
-                            <div class="bookimg2"><img src="./pics/everything-i-know-about-love-best-free-kindle-books-amazon-prime-720x720.jpg"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="story-circle2">
-                    <div class="colorb3">
-                        <div class="wordsb3">
-                           <font size="-1" >       <h4>Knights ransom </h4>
-                            <p>84 pages - Chapter 3 - Last</p>
-                            </font>
-
-                            <div class="bookimg3"><img src="./pics/knights-ransom-best-free-kindle-books-amazon-prime-720x720.jpg"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="story-circle3">
-                    <div class="colorb4">
-                        <div class="wordsb4">
-                           <font size="-1" >   <h4> National security </h4>
-                            <p>New purchase - Yet to read</p>
-                            </font>
-
-                            <div class="bookimg4"><img src="./pics/national-security-marc-cameron-best-free-kindle-books-amazon-prime-720x720.jpg"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="story-circle4">
-                    <div class="colorb5">
-                        <div class="wordsb5">
-                           <font size="-1" ><h4 >
-                            J.B Turner</h4>
-                            <p>74 pages - Chapter 4 - Last</p>
-                            </font>
-
-                            <div class="bookimg5"><img src="./pics/no-way-back-j-b-turner-best-free-kindle-books-amazon-prime-720x720.jpg"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="story-circle5">
-                    <div class="colorb6">
-                        <div class="wordsb6">
-                           <font size="-1" ><h4>
-                            Still Life </h4>
-                            <p>New purchase - Yet to read</p>
-                            </font>
-
-                            <div class="bookimg6"><img src="./pics/still-life-louise-penny-bset-free-kindle-books-amazon-prime-720x720.jpg"></div>
-                        </div>
-                    </div>
-                </div>
-                
-            </div>
-        </div>
-    </div>
-
-
-    <div class="newRelease">
-    
-        <h1>New release</h1>
-
-        <div class="ReleaseContainer">
-            
-            <ul class="newReleaseScroll">
-            
-                <li><div><img src="./pics/the-moonlight-child-best-free-books-prime-reading-720x720.jpg"  height="80px"; width="80px" >
-                    <h3>The Moonlight Child</h3>
-                    <p1>Karen McQuestion</p>
-                    <button>Mystery</button>
-                </div></li>
-                <li><div><img src="./pics/the-murmur-of-bees-best-free-kindle-books-amazon-prime-720x720.jpg" height="80px"; width="80px" >
-                    <h3>The Murder of Bees</h3>
-                    <p1>Sofia Segovia</p>
-                    <button>Friction</button>
-                    <div></li>
-                <li><div><img src="./pics/the-psycopath-mary-turner-thompson-best-free-kindle-books-amazon-prime-720x720.jpg" height="80px"; width="80px" >
-                    <h3>The Psychopa</h3>
-                            <p1>Mary Turner Thompson</p>
-                            <button>Thriller</button>
-                </div></li>
-                <li><div><img src="./pics/the-secret-weapon-bradley-wright-best-free-kindle-books-amazon-prime-720x720.jpg" height="80px"; width="80px" >
-                    <h3>The Secret Weapon</h3>
-                    <p1>Bradley Wright</p>
-                    <button>Action</button>
-                </div></li>
-                <li><div><img src="./pics/the-wife-upstairs-best-free-books-prime-reading-720x720.jpg" height="80px"; width="80px" >
-                    <h3>The Wire Upstairs</h3>
-                    <p1>Freida McFadden</p>
-                    <button>Horror</button>
-                </div></li>
-            </ul>
-        </div>
-    </div>
-
-  <div class="scrollbar2">
-    <h1 class="headerAuthor">Famous Authors</h1>
- 
-    <div class="actors">
-        <img src="./pics/istockphoto-1138563417-170667a.jpg" alt="">
-        <h2 >James Patrick</h2>
-        <p>10 Books</p>
-    </div>
-    <br>
-    <div class="actors">
-        <img src="./pics/istockphoto-1207862195-612x612.jpg" alt="">
-        <h2 class="headerAuthor">Yolanda Ley</h2>
-        <p>47 Novels</p>
-      </div>
-      <br>
-    <div class="actors">
-        <img src="./pics/black-female-author-posing-book-studio-portrait-looks-like-teacher-writer-image-depicts-education-146604746.jpg" alt="">
-        <h2 class="headerAuthor">Mandi Leme</h2>
-        <p>169 Books</p>
-    </div>
- </div>
+<body>
   
-</div>
-</div>
+     <main class="wrapper">
+          <div class="sidebar">
+          
+              <div class="imagecontainer"> 
+                
+                   <div class="profile">
+                 <img src="./pics/istockphoto-1277996375-612x612.jpg" alt=""> 
+                       <p> Welcome <br>Back<br></p>
+                       <h2> <bold>Sarah</bold></h2>
+                  </div>
+                  <br>
+                  <br>
+                    <ul>
+                      <li><a href="#"><span class="icon"> <img src="./pics/k.png"></span> <span class="item"> My <br>  Kindle Board</span></a></li>
+               
+                      <li><a href="#">
+                          <span class="icon"><i class="fa-solid fa-cube"></i>  </span>
+                          <span class="item"> Collections</span>
+                      </a></li>
+                      <li><a href="#">
+                          <span class="icon"><i class="fa fa-bookmark"></i>  </span>
+                          <span class="item"> Saved</span>
+                      </a></li>
+                      <li><a href="#">
+                          <span class="icon"> <i class="fa fa-user"></i> </span>
+                          <span class="item">  Profile</span>
+                      </a></li>
+                      <li><a href="#">
+                          <span class="icon"><i class="fa-solid fa-right-from-bracket"></i>  </span>
+                          <span class="item"> Logout</span>
+                      </a></li> 
+                      
+                  </ul>
+                  <div class="product">
+                  <h2> Product of</h2>
+                  <img src="./pics/amazon-png-logo-vector-1.ico" alt="">
+                  </div>
+                </div>
+            </div>
+            <header>
+                <section>
+                <div class="navContent">  
+                    <nav>
+                        <label class="label1">Kindle <h1>.</h1> </label>  
+                        <a href="#">
+                           <input type="search" placeholder="Search your books">
+                           <i class="fas fa-search"></i>
+                        </a>
+                        <a href="#">New release</a>
+                        <a href="#">Featured</a>
+                        <a href="#"> <img src="./pics/icons8-application-24.png"></a>
+                    </nav>
+                </div>
+        </header>
 
-<script src="landing page.js"></script>
+             <div class="scrollbar">
+                 
+                <h1>Books you have read last</h1>
+                <div class="scrollbarwrapper">
+                    <div class="scrollitem"> 
+                        <div class="iteminfo" id="book1">
+                            <img src="./pics/children-of-the-land-best-free-kindle-books-amazon-prime-720x720.jpg" alt="">
+                            <h1>Children of the Land</h1>
+                            <p>128 pages - Chapter 10 - Last</p>
+                        </div>
+                    </div> 
+                     <div class="scrollitem"> 
+                
+                        <div class="iteminfo" id="book2">
+                            <img src="./pics/dracula-best-free-kindle-books-amazon-prime-reading-720x720.jpg" id="book2" alt="">
+                            <h1>Dracula</h1>
+                            <p>194 pages - Chapter 12 - Last</p>
+                        </div>
+                   </div>
+                    <div class="scrollitem"> 
+                        <div class="iteminfo" id="book3"> 
+                            <img src="./pics/everything-i-know-about-love-best-free-kindle-books-amazon-prime-720x720.jpg" alt="">
+                            <h1>Everything I know about love</h1>
+                            <p>New purchase - Yet to read</p>
+                        </div>    
+                    </div>
+                    <div class="scrollitem"> 
+                        <div class="iteminfo" id="book4" >
+                            <img src="./pics/factfulness-illustrated-hans-rosling-best-free-kindle-books-amazon-prime-720x720.jpg" alt="">
+                            <h1>Factfulness illustrated</h1>
+                            <p>251 pages - Chapter 8 - Last</p>
+                        </div>
+                    </div>
+                    <div class="scrollitem"> 
+                        <div class="iteminfo" id="book5">
+                            <img src="./pics/knights-ransom-best-free-kindle-books-amazon-prime-720x720.jpg" alt="">
+                            <h1>Knights ransom </h1>
+                            <p>84 pages - Chapter 3 - Last</p>
+                        </div>
+                    </div>
+                    <div class="scrollitem"> 
+                        <div class="iteminfo" id="book6">
+                            <img src="./pics/national-security-marc-cameron-best-free-kindle-books-amazon-prime-720x720.jpg" alt="">
+                            <h1> National security </h1>
+                            <p>New purchase - Yet to read</p>
+                        </div>
+                    
+                    </div>
+                    <div class="scrollitem"> 
+                        <div class="iteminfo" id="book7">
+                            <img src="./pics/no-way-back-j-b-turner-best-free-kindle-books-amazon-prime-720x720.jpg" alt="">
+                            <h1> J.B Turner</h1>
+                            <p>74 pages - Chapter 4 - Last</p>
+                        </div>
+                    </div>
+                    <div class="scrollitem"> 
+                        <div class="iteminfo" id="book8">
+                            <img src="./pics/still-life-louise-penny-bset-free-kindle-books-amazon-prime-720x720.jpg" alt="">
+                            <h1>Still Life </h1>
+                            <p>New purchase - Yet to read</p>
+                        </div>
+                    </div>
+                    <div class="scrollitem"> 
+                        <div class="iteminfo" id="book9">
+                            <img src="./pics/the-last-rose-of-shanghai-best-free-kindle-books-amazon-prime-720x720.jpg" alt="">
+                            <h1>Still Life </h1>
+                            <p>274 pages - Chapter 19 - Last</p>
+                        </div>
+                    </div>
+                    <div class="scrollitem"> 
+                        <div class="iteminfo" id="book10">
+                            <img src="./pics/the-lost-world-best-free-kindle-books-amazon-prime-720x720.jpg" alt="">
+                            <h1>Still Life </h1>
+                            <p>New purchase - Yet to read</p>
+                        </div>
+                    
+                    </div>
+                
+                </div>          
+             </div>
+<!--         
+             <div class="scrollbar1">
+                 <h1>New Release</h1>
+               
+                <div class="books">
+                    <img src="./pics/the-moonlight-child-best-free-books-prime-reading-720x720.jpg" alt="">
+                    <h3>The Moonlight Child</h3>
+                    <p>Karen McQuestion</p>
+                    <button>Mystery</button>
+                </div>
+              
+                <div class="books">
+                    <img src="./pics/the-murmur-of-bees-best-free-kindle-books-amazon-prime-720x720.jpg" alt="">
+                    
+                    <h3>The Murder of Bees</h3>
+                    <p>Sofia Segovia</p>
+                    <button>Friction</button>
+                </div>
+                
+                 <div class="books">
+                    <img src="./pics/the-psycopath-mary-turner-thompson-best-free-kindle-books-amazon-prime-720x720.jpg" alt="">
+                    
+                    <h3>The Psychopa</h3>
+                    <p>Mary Turner Thompson</p>
+                    <button>Thriller</button>
+                </div>
+              
+                 <div class="books">
+                    <img src="./pics/the-secret-weapon-bradley-wright-best-free-kindle-books-amazon-prime-720x720.jpg" alt="">
+                    
+                    <h3>The Secret Weapon</h3>
+                    <p>Bradley Wright</p>
+                    <button>Action</button>
+                </div>
+               
+                <div class="books">
+                    <img src="./pics/the-wife-upstairs-best-free-books-prime-reading-720x720.jpg" alt="">
+                    
+                    <h3>The Wire Upstairs</h3>
+                    <p>Freida McFadden</p>
+                    <button>Horror</button>
+                </div>
+             
+             </div>
+           
+             <div class="scrollbar2">
+                <h1 class="headerAuthor">Famous Authors</h1>
+             
+                <div class="actors">
+                    <img src="./pics/istockphoto-1138563417-170667a.jpg" alt="">
+                    <h2>James St. Patrick</h2>
+                    <p>10 Books</p>
+                </div>
+                <br>
+                <div class="actors">
+                    <img src="./pics/istockphoto-1207862195-612x612.jpg" alt="">
+                    <h2 class="headerAuthor">Yolanda Ley</h2>
+                    <p>47 Novels</p>
+                  </div>
+                  <br>
+                <div class="actors">
+                    <img src="./pics/black-female-author-posing-book-studio-portrait-looks-like-teacher-writer-image-depicts-education-146604746.jpg" alt="">
+                    <h2 class="headerAuthor">Mandi Leme</h2>
+                    <p>169 Books</p>
+                </div>  -->
+             </div>  
+               
+            </div> 
+            <script src="landing page.js" type="text/javascript"> </script>
+       
+        </main>
+       
+    
 </body>
-</html
+</html>
 
-
-
-
-
-
-
-
-
- 
 
 
 

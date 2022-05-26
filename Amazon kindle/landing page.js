@@ -1,35 +1,15 @@
 let currentScrollPosition = 0;
-let scrollAmount = 400;
-const  sCont = document.querySelector(".storys-container");
+let scrollAmount = 320;
+const sCont = document.querySelector(".story-container");
 const hScroll = document.querySelector(".horizontal-scroll");
-const btnScrollLeft = document.querySelector("#btn-scroll-left");
-const btnScrollRight = document.querySelector("#btn-scroll-right");
-btnScrollLeft.style.opacity = "0";
-
-let maxScroll = -sCont.offsetWidth + hScroll.offsetWidth;
-function scrollHorizontally(val){
-    currentScrollPosition += (val * scrollAmount);
-    sCont.style.left = currentScrollPosition + "px";
-    if(currentScrollPosition >= 0){
-          currentScrollPosition = 0
-          btnScrollLeft.style.opacity = "0";
-    }
-    else{
-      btnScrollLeft.style.opacity = "1";
-    }
-    if(currentScrollPosition <= maxScroll){
-        currentScrollPosition = maxScroll;
-        btnScrollRight.style.opacity = "0";
-    }
-    else{
-      btnScrollRight.style.opacity = "1";
-    }
-    sCont.style.left=currentScrollPosition + "px"; 
+let maxScroll = -sCont.offserWidth + hScroll.offserWidth;
+function ScrollHorizontally(val){
+  currentScrollPosition += (val * scrollAmount);
+  if(currentScrollPosition > 0){
+  currentScrollPosition = 0;
 }
-
-function changeTheImage(){
-  const img=document.getElementById("userimage");
-  img.src=localStorage.getItem("file");
-  document.getElementById("userName").innerText = localStorage.getItem("Is_name_and_surname");
+if(currentScrollPosition > 0){
+  currentScrollPosition = maxScroll;
 }
-
+sCont.style.left = currentScrollPosition + "px";
+}

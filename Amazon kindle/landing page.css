@@ -1,571 +1,377 @@
-.main {
-  float: left;
-  width: 80%;
-  padding: 0 20px;
-}
-
-.readlastTime{
-  width: 100%;
-  overflow-x: hidden;
+*{
   
-}
-
-.readlastTime ul{
-  overflow-x: scroll;
-  display: inline-flex;
-  width: 100%;
-  scroll-snap-align: start;
-  max-height: 100%;
-  overflow-y: hidden;
-  
-}
-.readlastTime ul li div img{
-  border-radius: 15px;
-  margin-left: 20px;
-  margin-top: -10px;
-  
-}
-.readlastTime ul li h1{
-  font-size: 1rem;
-  margin-top: -160px;
-  margin-left: 200px;
-  padding: 2px;
-}
-.readlastTime ul li{
-  list-style: none;
-  padding: 10px;
-  height: auto;
-  
-}
-
-.readlastTime ul li p{
-  margin-top: 5px;
-  margin-left: 200px;
-}
-.readlastTime ul li div{
-  height:10rem;
-  width: 25rem;
-  border-radius: 40px;
-  left: 8rem;
-  
-}
-
-.newRelease{
- width: 80%;
- float: left;
-}
-
-.newRelease ul{
-  display: inline-flex;
-  margin-left: -50px;
-         
-}
-.newRelease ul li{
-  
-  list-style: none;
-  border-radius: 20px; ;
-  cursor: pointer;
-  
- 
-}
-.newRelease ul li button{
-  border-radius: 15px;
-}
-.newRelease ul li div img{
-  border-radius: 15px;
-
-}
-.newRelease ul li a{
-  text-decoration: none;
-}
-.newRelease ul li h4{
-  padding-left: 4px;
-}
-
-.right {
-  background-color: #e5e5e5;
-  float: right;
-  width: 15%;
-  margin-top: -330px;
-
- 
-}
-
-.right ul li{
-  list-style: none;
-  cursor: pointer;
-
-  
-  
-}
-.right ul li h3{
-  font-size: 1rem;
-  margin-top: -6px;
-  text-align: right;
-  margin-right: 59px;
-}
-
-.product {
-  font-size: 10px;
-  margin-top: 25px;
-  margin-left: 105px;
-  align-items: center;
-  display: flex;
-  position: absolute;
-}
-
-body{
-
-margin: 0;
-height: auto;
-background: #F6F5F3;
-width: 100%;
-color: black;  
-overflow-y: hidden;
-  
- }
- body{
-     min-height: 100%;
- }
- .kindleContent{
-     height: 100%;
-     min-height: 100%;
- }
-* {
-  box-sizing: border-box;
-}
-
-.menu {
-  float: left;
-  width: 20%;
-  height: 100%;
-  min-height: 100%;
-  
-}
-
-.menu a {
-  padding: 8px;
-  margin-top: 7px;
-  display: block;
-  width: 100%;
-  color: black;
-}
-.profileContent{
-  
-  background-image: linear-gradient(#ECEAE8,#DDD0BB);
-  width: 80%;
-  margin-top: 20px;
-  text-align: center;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-}
-.profileContent img{
-  border-radius: 15px;
-  margin-top: 30px;
-  width: 100px;
-  height: 80px;
-  text-align: center;
-  
-}
-.username{
-  font-size: 2rem;
-  font-weight: bold;
-  margin-top: -10px;
-  
-}
-.sidebarItem{
-  margin-top: 100px;
-}
-
-.productContent img{
-  margin-left: 80px;
-}
-.main {
-  float: left;
-  width: 80%;
-  padding: 0 20px;
-  margin: 0;
-}
-
-.readlastTime{
-  width: 100%;
-  overflow-x: hidden;
-  
-}
-
-.readlastTime ul{
-  overflow-x: scroll;
-  display: inline-flex;
-  width: 100%;
-  scroll-snap-align: start;
-  max-height: 100%;
-  overflow-y: hidden;
-  
-}
-.readlastTime ul li div img{
-  border-radius: 15px;
-  margin-left: 20px;
-  margin-top: -10px;
-  
-}
-.readlastTime ul li h1{
-  font-size: 1rem;
-  margin-top: -160px;
-  margin-left: 200px;
-  padding: 2px;
-}
-.readlastTime ul li{
-  list-style: none;
-  padding: 10px;
-  height: auto;
-  
-}
-
-.readlastTime ul li p{
-  margin-top: 5px;
-  margin-left: 200px;
-}
-.readlastTime ul li div{
-  height:10rem;
-  width: 25rem;
-  border-radius: 40px;
-  left: 8rem;
-  
-}
-
-
-::-webkit-scrollbar {
-  width: 5px;
-  display: none;
-}
-.logo{
-  width: 140px;
-  height: 60px;
-}
-.book1{
-  background-color:    #3D879C;
-}
-.book2{
-  background: #79cf33;
-}
-.book3{
-  background: brown;
-}
-.book4{
-  background: #2799C9;
-}
-.book5{
-  background: red;
-}
-.book6{
-  background:green;
-}
-
-.fa-arrow-left{
-   
-  margin: 86px;
-  margin-left: -70px;
-}
-.fa-arrow-right{
-  margin-left: 700px;
-  margin-top: 72px;
-  float: right;
-  right: 0;
-  
-}
-.fa-arrow-left,.fa-arrow-right{
-  cursor: pointer;
-  position: fixed;
-}
-
-.newRelease{
- width: 85%;
- float: left;
- 
-}
-
-.newRelease ul{
-  display: inline-flex;
-  margin-left: -50px;
-     
-}
-
-
-nav{
-  width:80%;
-  display: inline-flex;
-  flex-direction: row;
-}
-
-.rightNav{
-  text-align: right;
-}
-nav .navContent .label1{
-  float: left;
-  margin-right: 20px;
-   font-size: 20px;
-   color: #000000;
-   color: or;
-   width:18%;
-
-}
-.label1 h1{
-float: right;
-  margin-top: -5px;
-margin-right: 210px;
-  font-size: 25px;
-  color: orange;
-  font-weight: bold;
- 
-}
-
- .navContent {
-        margin-right: 30px;
-        margin-top: 30px;
-       
-        width: 100%;
-    }
-    .navContent a{
-        text-decoration: none;
-        margin: 20px;
-        color: #000000;
-    
-    }
-    .navContent input[type=search]{
-        margin: -34px;
-        padding: 20px;
-     border: none;
-     
-    }
-    .navContent input{
-        border-radius: 25px;
-        margin: 10px;
-        height: 40px;
-     
-    }
-.newRelease ul li{
-  margin: 20px;
-  list-style: none;
-  border-radius: 20px; ;
-  cursor: pointer;
-  width: 180px;
-  
- 
-}
-
-.newRelease ul li button{
-  border-radius: 15px;
-}
-.newRelease ul li div img{
-  border-radius: 15px;
-  
-
-}
-.newRelease ul li a{
-  text-decoration: none;
-  
-}
-.newRelease ul li h4{
-  padding-left: 4px;
-}
-
-.right {
-  background-color: #e5e5e5;
-  float: right;
-  width: 15%;
-  margin-top: -330px;
-  text-align: center;
- 
-}
-.right h1{
-  font-size: 1rem;  
-}
-.authorImg{
-  margin-top: -8px;
-  width:40px;
-  height: 40px;
-  border-radius: 50%;
-}
-.right ul li{
-  list-style: none;
-  cursor: pointer;
-  
-  
-}
-.right ul li h3{
-  font-size: 1rem;
-  margin-top: -6px;
-}
-.sidebarItem{
-  margin-top: 18px;
-  margin-left: -20px;
-}
-.sidebarItem a{
-  text-decoration: none;
-
-}
-.sidebarItem ul li{
-  list-style: none;
-}
-.kIcon{
-  border-radius: 15px;
-  width: 16px;
-  height: 16px;
-}
-.collectionIcon{
-  width: 16px;
-  height: 16px;
-  
-}
-.savedIcon{
-  width: 12px;
-  height: 12px;
-}
-.fa-user, .fa-sign-out-alt{
-  font-size: 1rem;
-  text-decoration: none;
-}
-@media only screen and (max-width: 620px) {
-  
-  body{
-    overflow: auto;
-    overflow-x: hidden;
-  }
-  .menu, .main, .right, .topnav,.newRelease, .profileContent,.readlastTime {
-    width: 100%;
-    margin: 0;
-  }
-  .kindleContent{
-    margin-top: 120px;
-  }
-  .readlastTime ul{
-    display: block;
-  }
-  
-  .fa-bars{
-   color: black; 
-  }
-  .fa-arrow-left,.fa-arrow-right{
-    display: none;
-  }
-  .newRelease{
-    width: 100%;
-  }
-  .newRelease ul{
-    
-    display: block;
-    text-align: center;
-    
-  }
-  .topnav{
-    
-      position: fixed;
-      width: 100%;
-      background: #F6F5F3;
-      top: 0;
-      left: 0;
-      font-family: 'Exo 2', sans-serif;
-      padding: 1em;
-      height: 200px;
-    }
-    .navLeft img{
-      margin-bottom: 40px;
-    }
-    .navContent input{
-      border-radius: 25px;
-      margin-top: -100px;
-      position: relative;
-     
-     
-    }
-    #pcLogo{
-      display: none;
-    }
-    .navContent {
-      margin-right: 30px;
-      margin-top: 30px;
-     
-      width: 100%;
-  }
-  .navContent a{
+      list-style: none;
       text-decoration: none;
-      margin: 20px;
-      color: #000000;
+      margin:0;
+      padding:0;
+      box-sizing: border-box;
+      font-family: 'open sans',sans-serif;
+  }
+   body{
+          background:#F6F5F3;
+      
+          width: 100%;
+        height: 100%;
+   }
+   .wrapper .sidebar{
   
-  }
-  .navContent input[type=search]{
-      margin: -34px;
-      padding: 20px;
-   border: none;
-   
-  }
-  .navContent input{
-      border-radius: 25px;
-      margin: 10px;
-      height: 40px;
-  }
-    .navContent a{
-      margin-top: 30px;
-      display: inline-flex;
-      padding: 0;
+           background-color: #FAF8F4;
+          position:fixed;
+          top:0;
+          left:0;
+          width: 250px;
+          height:100%;
+          padding:20px 0px;
+ 
+   }
+   .wrapper .sidebar .imagecontainer{
+  
+      background-color: #DFD7C7;
+      width: 200px;
+      height:260px;
+      position:fixed;
+     
+      left:0;
+      border-top-right-radius: 20px;
+      border-bottom-right-radius: 20px;
+      padding:10px 0px;
+        
+   }
+   .wrapper .sidebar .imagecontainer .profile{
+  
+           
+    
+           text-align: center;
+          
+   }
+  
+   .wrapper .sidebar  .imagecontainer .profile  img{
+  
+        display:block;
+        width: 100px;
+       height: 100px;
+        border-radius: 20%;
+        margin: auto;
+        
+      }
+  
+   .wrapper .sidebar   .profile  h2{
+        
+       
+         font-size: 22px;
+    
+    
     }
-    .searchbar{
-      margin-left: 50px;
+  .wrapper .sidebar  .profile  p{
+        
+         margin-top: 30px;
+        font-size: 16px;
+    }
+    .wrapper .sidebar ul li a{
+     
+       display:block ;
+       
       
+       color:blue;
+       font-size: 20px;
+     margin-top: 20px;
+      margin-left: 35px;
+  
     }
-    .profileContent{
-      margin-top: 70px;
-      border: none;
+    .wrapper .sidebar ul li a .icon img{
       
-    }
-    .right ul li {
-      display: inline-flex;
-    }
-    .navlink{
-      color: #79cf33;
+      
+      display:block;
+      width: 26px;
+      height:32px;
+      border-radius: 20%;
      
     }
-   
   
-}
+   
+    .wrapper .sidebar ul li a .icon{
+        
+      color: #000;
+      display: inline-block;
+     
+  }
+  .wrapper .sidebar ul li a .item{
+        
+      color: #000;
+      position: absolute;
+     
+      display: inline-block;
+      
+  }
+   .wrapper .sidebar .product h2{
+  
+      font-size: 20px;
+      margin-top: 30px;
+      margin-left: 65px;
+      align-items: center;
+      display: flex;
+      position: absolute;
+   
+    
+   }
+   .wrapper .sidebar .product img{
 
-@media only screen and (min-width: 620px) {
-  #mobileLogo{
-    display: none;
+   margin-top: -25px;
+      
+      margin-trim: 6px;
+   }
+
+   
+     
+
+   .content{
+
+      width:100%;
+      height: 100px;
+      position:fixed;
+      padding:10px;
+      margin-left: 250px;
+      position:fixed;
+      background-color: aqua;
+  }
+
+  header{
+    width:80%;
+      height: 100px;
+      
+      margin-left: 295px;
+      background-color: #FAF8F4;;
+      position: fixed;
+      float: left;
+  }
+  header .navContent .label1{
+    
+   
+    float: left;
+   
+    margin-right: 250px;
+     font-size: 35px;
+     color: #000000;
+     font-style: bold;
+     font-weight: bold;
+  }
+
+  header .navContent .label1 h1{
+    float: right;
+    margin-top: 2px;
+    margin-right: 10px;
+    font-size: 35px;
+    color: orange;
+    
+    font-weight: bold;
+    border-radius: 100%;
+
+  }
+
+  header .navContent{
+        
+          
+          margin-right: 60px;
+          margin-top: 60px;
+      }
+      .navContent a{
+          text-decoration: none;
+          margin: 20px;
+          color: #000000;
+          
+      }
+      .navContent input[type=search]{
+          margin: -34px;
+          padding: 20px;
+          width:300px;
+      }
+      .navContent input{
+          border-radius: 25px;
+          margin: 10px;
+          height: 30px;
+          width: 200px;
+      }
+
+  .scrollbar{
+     
+    
+    width: 82.5%;
+    height: 100%;
+    background-color: #FAF8F4;
+    float: left;
+    margin-top: 150px;
+    margin-bottom: 300px;
+    margin-left: 230px;
+    
+   
+  }
+  .scrollbar .scrollbarwrapper{
+    
+    display: flex;
+    overflow-y: hidden;
+    height: 298px;
+    background-color: #FAF8F4;
+
+   width: 100%;
+   
+  }
+  .scrollbarwrapper .scrollitem{
+    
+    margin-top: 100px;
+    width: 75%;
+    height: 100px;
+    margin-right: 50px;
+    margin-left: 100px;
+    border-radius: 20%;
+  }
+  .scrollitem img
+  { 
+    width: 100px;
+    height: 200px;
+    margin-left: 20px;
+    margin-top: -50px;
+    border-radius: 25%;
+  }
+
+  .scrollitem .iteminfo{
+    width: 450px;
+    height: 170px;
+    border-radius: 10%;
+    margin-top: -20px;
+    
+    
+  }
+  .scrollitem #book1{
+    background: #3D879C;
+  }
+  .scrollitem #book2{
+    background: #A47253;
+  }
+  .scrollitem #book3{
+    background: blue;
+  }
+  .scrollitem #book4{
+    background: #2799C9;
+  }
+  .scrollitem #book5{
+    background: goldenrod;
+  }
+  .scrollitem #book6{
+    background: rgb(187, 81, 236);
+  }
+  .scrollitem #book7{
+    background: red;
+  }
+  .scrollitem #book8{
+    background: lightblue;
+  }
+  .scrollitem #book9{
+    background: green;
+  }
+  .scrollitem #book10{
+    background: peachpuff;
+  }
+  .scrollitem .iteminfo h1{
+    margin-top: -100px;
+    margin-left: 200px;
+  }
+  .scrollitem .iteminfo p{
+    margin-top: 5px;
+    margin-left: 200px;
+  }
+
+  .scrollbar h1{
+    margin-top: 20px;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+
+  }
+
+  .scrollbar1{
+     
+    margin-top: -280px;
+    width: 65%;
+    height: 390px;
+    background-color: #FAF8F4;
+    float: left;
+    margin-left:290px;
+    display:flex;
+  }
+  .scrollbar1 .books{
+
+    margin-top: 50px;
+  }
+  .scrollbar1 h1{
+
+    font-size: 100px;
+    position:fixed;
+  }
+  .scrollbar1 .books img { 
+   
+    width:150px;
+    height: 200px;
+    margin-top: 30px;
+    margin-left: 50px;
+    border-radius: 20%;
+
+  }
+  .scrollbar1 .books h3 {
+      margin-left: 50px;
+      margin-top: 10px;
+  }
+  .scrollbar1 .books p{
+    margin-left: 50px;
+    margin-top: 10px;
+  }
+  .scrollbar1 .books button{
+    margin-left: 50px;
+    margin-top: 10px;
+    width: 100px;
+    border-radius: 120px;
+    
+  }
+  .scrollbar1 h1{
+
+    font-size: 40px;
+    margin-left: 20px;
   }
   .scrollbar2{
-     width: 20%;
-      
-      
-    background-color: #e5e5e5;
+     
+    margin-top: -390px;
+    width: 17%;
+    height: 400px;
+    background: rgb(238, 222, 222); 
     float: right;
-   
+    margin-left: 390px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
    
-  
+    
+
   }
-  
   .scrollbar2 h1{
-  
+
     font-size: 22px;
     text-align: center;
-  
-  
+    margin-top: 50px;
+    margin-right: 20px;
+
   }
   .scrollbar2 img{
-  
-   
+
+    width :60px;
+    height: 60px;
     border-radius: 50%;
-    margin-left: 30px;
-    margin-top: 25px;
+    margin-left: 50px;
+    margin-top: 35px;
     
   }
   .scrollbar2 h2{
-    margin-top: -40px;
+    margin-top: -60px;
     text-align: right;
     font-size: 18px;
-    margin-right: 80px;
+    margin-right: 50px;
   }
   .scrollbar2 p{
      
@@ -575,111 +381,31 @@ margin-right: 210px;
     font-size: 18px;
   }
 
-}
-
-@media only screen and (min-width: 620px) {
-#mobileLogo{
-  display: none;
-}
-}
-
-.label1  {
-text-align: left;
-
-  color: orange;
-
-
-}
-.scrollbar2{
-margin-top: -290px;
-width: 20%;
-
-background-color: #e5e5e5;
-float: right;
-
-border-top-left-radius: 20px;
-border-bottom-left-radius: 20px;
-
-}
-
-.scrollbar2 h1{
-
-font-size: 22px;
-text-align: center;
-}
-.scrollbar2 img{
-
-width :40px;
-height: 40px;
-border-radius: 50%;
-margin-left: 30px;
-margin-top: 25px;
-
-}
-.scrollbar2 h2{
-margin-top: -40px;
-text-align: right;
-font-size: 18px;
-margin-right: 80px;
-}
-.scrollbar2 p{
  
-text-align: right;
-margin-right: 80px;
-
-font-size: 18px;
-}
-
-
-.label1  {
- text-align: left;
-
-    color: orange;
-
- 
-}
-.scrollbar2{
-     
-  margin-top: -290px;
-  width: 20%;
-
-  
-  background-color: #e5e5e5;
-  float: right;
- 
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
- 
-
-}
-
-.scrollbar2 h1{
-
-  font-size: 22px;
-  text-align: center;
-
-
-}
-.scrollbar2 img{
-
-  width :40px;
-  height: 40px;
-  border-radius: 50%;
-  margin-left: 30px;
-  margin-top: 25px;
-  
-}
-.scrollbar2 h2{
-  margin-top: -40px;
-  text-align: right;
-  font-size: 18px;
-  margin-right: 80px;
-}
-.scrollbar2 p{
+  ::-webkit-scrollbar-track {
+    width: 10px;
+    border-radius: 10px;
+  }
    
-  text-align: right;
-  margin-right: 80px;
-  
-  font-size: 18px;
+  ::-webkit-scrollbar-thumb {
+    background: rgb(143, 226, 236); 
+    border-radius: 10px;
+  }
+
+    */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(238, 222, 222); 
+  }
+  .headerAuthor {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+  }
+@media only screen and (max-width:768px) {
+.wrapper { 
+  width: 100%;
+  display: block;
+  padding-bottom: 30px;
+} 
 }
 
