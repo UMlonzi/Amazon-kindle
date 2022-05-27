@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="login.css">
+     
+
+    </head>
+
+   
+    
+    <body style="background-image: url(./pics/background.jpg.webp) ; " class="body">
+
+        <header>
+            
+        </header>
+
+        <main>
+
+            <form   class="form" action="#" method="post" name="form" onsubmit="myLogin(event)">
+                <div class="account" >
+                  <h1>Sign-in </h1>
+                  <div class="font">Email or Phone Number</div>
+                  <input autocomplete="off" type="text" id="email" name="email">
+                  
+                  <div id="email_error">Please fill up your Email or Phone number</div>
+                  <div class="font font2"> Password</div>
+                  <input type="password"  id="password" name="password">
+                  <div id="pass_error"> Please fill up your Password</div>
+				     <div id="invalid_credential_error">Credentialas are incorrect</div>
+                  
+                     <div><input type="checkbox"  name="Show password"> Show password
+                  <br> <br> </div>
+                  <div><input type="checkbox" name="Keep me signed in"> Keep me signed in
+                    <br> <br></div>
+          
+             
+<br>
+                  <button type="submit"  class="loginbtn"> Sign-in</button>
+
+             
+                </div>
+
+              
+                
+              </form>
+              <script src="login.js"></script>
+     
+               
+              
+              
+
+        </main>
+
+    </body>
+   
+
+
+</html>
