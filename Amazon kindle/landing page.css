@@ -825,7 +825,7 @@ margin-top: -400px;
   font-size: 18px;
 }
 
-#myPopup{
+#myPopup, #myPopup2, #myPopup3, #myPopup4, #myPopup5{
   display: none;
   text-align:right;
   

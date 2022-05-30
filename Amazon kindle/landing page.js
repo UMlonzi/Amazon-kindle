@@ -68,15 +68,16 @@ function closeFormFive() {
 }
 
 
-let count = 0;
-const valueDisplay = document.getElementById(valueDisplay);
+// let count = 0;
+// const valueDisplay = document.getElementById(valueDisplay);
 
-function increment () {
-  count++;
-  valueDisplay.innerText = count;
-}
-  function decrement(){
-  count--;
-  valueDisplay.innerText = count;
-  }
+// function increment () {
+//   count++;
+//   valueDisplay.innerText = count;
+// }
+//   function decrement(){
+//   count--;
+//   valueDisplay.innerText = count;
+//   }
 
+ 

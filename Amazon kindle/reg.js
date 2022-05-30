@@ -23,3 +23,4 @@ img.addEventListener("change", function(){
         }
     readimgfile.readAsDataURL(this.files[0]);
 });
+
