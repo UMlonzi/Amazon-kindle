@@ -1,0 +1,36 @@
+[
+    {
+        "id": 1,
+        "image": "./pics/the-moonlight-child-best-free-books-prime-reading-720x720.jpg",
+        "name": "The Moonight Child",
+        "price": "157.00",
+        "quantity": 1
+    },
+
+    {
+        "id": 2,
+        "image": "./pics/the-murmur-of-bees-best-free-kindle-books-amazon-prime-720x720.jpg" ,
+        "name": "The Murder of Bees",
+        "price": "129.00",
+        "quantity": 1
+    },
+
+    {
+        "id": 3,
+        "image":"./pics/the-psycopath-mary-turner-thompson-best-free-kindle-books-amazon-prime-720x720.jpg" ,
+        "name": "The Psychopath",
+        "price": "99.00",
+        "quantity": 1
+    },
+    
+    {
+        "id": 4,
+        "image":"./pics/the-secret-weapon-bradley-wright-best-free-kindle-books-amazon-prime-720x720.jpg",
+        "name": "The Wire Upstairs",
+        "price": "136.00",
+        "quantity": 1
+    }
+
+
+
+]

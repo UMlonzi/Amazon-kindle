@@ -1,0 +1,299 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+   
+}
+.horizontal-scroll{
+    width: 100rem;
+    height: 300px;
+
+  
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+.horizontal-scroll .btn-scroll{
+    background-color: #fff;
+    color: #999;
+    box-shadow:0 0 10px #999 ;
+    padding: 5px 8px;
+    border: 0;
+    border-radius: 50%;
+    margin: 0 5px;
+    z-index: 1;
+    cursor: pointer ;
+    transition: 1s;
+}
+.storys-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    transition:0.5s all ease-out;
+}
+.story-circle{
+   
+ 
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    
+}
+.story-circle img{
+   
+    width: 63px;
+    height: 10rem;
+  border-radius: 15px;
+   
+     
+}
+.colorb1{
+    position: absolute;
+    background-color: #3D879C;
+    height:6rem;
+    width: 20rem;
+    border-radius: 40px;
+    left: 3rem;
+}
+.wordsb1{
+    position: absolute;
+  margin-right: 50px;
+    left: 5rem;
+}
+.bookimg1{
+    position: absolute;
+    left: -4rem;
+    top: -4.5rem;
+    height:10rem;
+    width: 25rem;
+    border-radius: 40px;
+    
+}
+/*book2*/
+.colorb2{
+    position: absolute;
+    background: #79cf33;
+    height:6rem;
+    width: 20rem;
+    border-radius: 40px;
+    left: 25rem;
+}
+.story-circle1{
+    width: 60px;
+    height: 60px;
+    margin: 15px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    margin-right: 20rem;
+}
+.story-circle1 img{
+    width: 63px;
+    height: 10rem;
+  border-radius: 15px;
+   
+     
+}
+.wordsb2{
+    position: absolute;
+    width: 10rem;
+    left: 5rem;
+}
+.bookimg2{
+    position: absolute;
+    left: -4rem;
+    top: -4.5rem;
+
+}
+/*end*/
+/*book3*/
+.colorb3{
+    position: absolute;
+    background: brown;
+    height:6rem;
+    width: 20rem;
+    border-radius: 40px;
+    left: 47rem;
+}
+.story-circle2{
+    width: 60px;
+    height: 60px;
+    margin: 15px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    margin-right: 20rem;
+}
+.story-circle2 img{
+    width: 63px;
+    height: 10rem;
+  border-radius: 15px;
+   
+     
+}
+.wordsb3{
+    position: absolute;
+    width: 10rem;
+    left: 5rem;
+}
+.bookimg3{
+    position: absolute;
+    left: -4rem;
+    top: -4.5rem;
+
+}
+/*end*/
+/*book4*/
+.colorb4{
+    position: absolute;
+    background: #2799C9;
+    height:6rem;
+    width: 20rem;
+    border-radius: 40px;
+    left: 69rem;
+}
+.story-circle3{
+    width: 60px;
+    height: 60px;
+    margin: 15px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    margin-right: 20rem;
+}
+.story-circle3 img{
+    width: 63px;
+    height: 10rem;
+  border-radius: 15px;
+   
+     
+}
+.wordsb4{
+    position: absolute;
+    width: 10rem;
+    left: 5rem;
+}
+.bookimg4{
+    position: absolute;
+    left: -4rem;
+    top: -4.5rem;
+
+}
+
+.colorb5{
+    position: absolute;
+    background: red;
+    height:6rem;
+    width: 20rem;
+    border-radius: 40px;
+    left: 91rem;
+}
+.story-circle4{
+    width: 60px;
+    height: 60px;
+    margin: 15px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    margin-right: 20rem;
+}
+.story-circle4 img{
+    width: 63px;
+    height: 10rem;
+  border-radius: 15px;
+   
+     
+}
+.wordsb5{
+    position: absolute;
+    width: 10rem;
+    left: 5rem;
+}
+.bookimg5{
+    position: absolute;
+    left: -4rem;
+    top: -4.5rem;
+
+}
+
+.colorb6{
+    position: absolute;
+    background:green;
+    height:6rem;
+    width: 20rem;
+    border-radius: 40px;
+    left: 113rem;
+}
+.story-circle5{
+    width: 60px;
+    height: 60px;
+    margin: 15px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    margin-right: 20rem;
+}
+.story-circle5 img{
+    width: 63px;
+    height: 10rem;
+  border-radius: 15px;
+   
+     
+}
+.wordsb6{
+    position: absolute;
+    width: 10rem;
+    left: 5rem;
+}
+.bookimg6{
+    position: absolute;
+    left: -4rem;
+    top: -4.5rem;
+
+}
+
+.colorb7{
+    position: absolute;
+    background-color: red;
+    height:6rem;
+    width: 20rem;
+    border-radius: 40px;
+    left: 135rem;
+}
+.story-circle6{
+    width: 60px;
+    height: 60px;
+    margin: 15px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    margin-right: 20rem;
+}
+.story-circle6 img{
+    width: 53px;
+    height: 10rem;
+    border-radius: 40px;
+   
+     
+}

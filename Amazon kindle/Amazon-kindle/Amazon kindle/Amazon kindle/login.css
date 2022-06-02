@@ -1,0 +1,76 @@
+.form {
+
+    padding: 10px ;
+    border: 3px solid orange;
+    
+    width: 20%;
+    border-style: center;
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    }
+    #email_error,
+    #pass_error {
+       margin-bottom: 10px;
+     padding: 5px 8px;
+      background: rgba(255, 0, 0, 0.1);
+        color: red;
+        text-align: center;
+        padding: 5px 8px;
+        border-radius: 3px;
+        border: 1px solid #ef9a9a;
+        font-size: 18px;
+        display: none;
+    }
+    
+    .body {
+    background-color:grey ;
+        margin: 0;
+        padding: 0;
+     
+    }
+    .loginbtn {
+        background-color: orange;
+ 
+    border: none;
+    cursor: pointer;
+    height: 45px;
+    width: 305px;
+    font-weight: bold;
+    
+    }
+    .font2 {
+        margin-top: 30px;
+        width: 100px;
+    }
+    .font {
+    
+        width: 50%;
+    }
+    .font2{
+       
+    width: 50%;
+ 
+    }
+
+    @media only screen and (max-width: 620px) {
+        .form {
+
+       
+            width: 50%;
+         
+            }
+            .loginbtn {
+            
+        
+            width: 240px;
+           
+            
+            }
+
+    }
