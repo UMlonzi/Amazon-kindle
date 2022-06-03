@@ -101,3 +101,40 @@ function updateCartTotal() {
     total = Math.round(total * 100) / 100
     document.getElementsByClassName('cart-total-price')[0].innerText = 'R' + total
 }
+
+function addCartItems(){
+    var cartItems = document.getElementsByClassName('cart-items')[0];
+    var cart = JSON.parse(localStorage.getItem("cart"));
+
+    for (var i = 0; i < cart.length; i++) {
+        var cartRow = document.createElement('div');
+        cartRow.classList.add('cart-row');
+        var cartRowContents = `
+        <div class="cart-item cart-column">
+            <img class="cart-item-image" src="${cart[i].image}" width="100" height="100">
+            <span class="cart-item-title">${cart[i].name}</span>
+        </div>
+        <span class="cart-price cart-column">R${cart[i].price}</span>
+        <div class="cart-quantity cart-column">
+            <input class="cart-quantity-input" type="number" value="${cart[i].quantity}">
+            <button class="btn btn-danger" type="button" onclick="RemoveItemFromCart(${cart[i].id}, event)">REMOVE</button>
+        </div>`;
+        cartRow.innerHTML = cartRowContents;
+        cartItems.append(cartRow);
+        //cartRow.getElementsByClassName('btn-danger')[0].addEventListener('click', removeCartItem);
+        cartRow.getElementsByClassName('cart-quantity-input')[0].addEventListener('change', quantityChanged);
+    }
+    updateCartTotal();
+}
+
+function RemoveItemFromCart(productId, event){
+    var buttonClicked = event.target;
+
+    const cart = JSON.parse(localStorage.getItem("cart"));
+    let temp = cart.filter(item => item.id != productId);
+    localStorage.setItem("cart", JSON.stringify(temp));
+
+
+    buttonClicked.parentElement.parentElement.remove();
+    updateCartTotal();
+}

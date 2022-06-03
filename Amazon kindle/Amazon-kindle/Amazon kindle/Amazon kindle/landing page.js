@@ -95,12 +95,12 @@ fetch("products.json")
 let products = JSON.parse(localStorage.getItem("products"));
 let cart = JSON.parse(localStorage.getItem("cart"));
 
-function addItemToCart(productId){
+function AddItemToCart(productId){
   let product = products.find(function(product){
     return product.id == productId;
   });
 
-  if(cart.length == 0){
+  if(cart == null){
   cart.push(product);
   }else{
     let res = cart.find(element => element.id == productId);
@@ -117,11 +117,11 @@ function addItemToCart(productId){
 // addItemToCart(4);
 
 
-function removeItemFromCart(productId){
+function RemoveItemFromCart(productId){
   let temp = cart.filter(item => item.id != productId);
   localStorage.setItem("cart", JSON.stringify(temp));
 }
-removeItemFromCart(3);
+// removeItemFromCart(3);
 
 
 function updateQuantity(productId, quantity){
